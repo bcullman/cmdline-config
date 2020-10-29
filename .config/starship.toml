@@ -1,0 +1,56 @@
+# ~/.config/starship.toml
+
+format = """\
+    $username\
+    $time\
+    $directory\
+    $git_branch\
+    $git_status\
+    $line_break\
+    $env_var\
+    $character\
+    """
+
+[username]
+style_user = "bold bright-green"
+style_root = "bold bright-purple"
+format = "[$user]($style) "
+show_always = true
+
+[time]
+style = "bold bright-cyan"
+format = "[$time]($style) "
+disabled = false
+
+[directory]
+style = "bold bright-red"
+format = "[$path]($style)[$read_only]($read_only_style) "
+truncate_to_repo = true
+truncation_length = 8
+
+[directory.substitutions]
+"~/Documents/git" = "~/...git"
+
+[git_branch]
+style = "bold bright-yellow"
+format = "[$symbol$branch]($style) "
+symbol = " "
+truncation_symbol = ""
+
+[git_status]
+style = "bold bright-yellow"
+format = '([\[$all_status$ahead_behind\]]($style) )'
+modified = "⚡"
+stashed = "👜"
+conflicted = "👊"
+staged = "+"
+staged_count.enabled = true
+
+[env_var]
+style = "bold bright-purple"
+format = "[$env_value]($style) "
+variable = "STARSHIP_SHELL"
+
+
+[character]
+style_user = "bold bright-green"

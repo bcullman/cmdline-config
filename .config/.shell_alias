@@ -1,0 +1,67 @@
+# cannibalizing from:
+# https://github.com/paulirish/dotfiles/blob/master/.aliases
+
+# Easier navigation: .., ..., ~ and -
+alias -- -='cd -'
+alias .....='cd ../../../..'
+alias ....='cd ../../..'
+alias ...='cd ../..'
+alias ..='cd ..'
+alias ~='cd ~' # `cd` is probably faster to type though
+alias cd..='cd ..'
+alias cd~='cd ~'
+
+## cp, mv, rm
+alias cp='cp -v'
+alias mv='mv -v'
+alias rm='rm -i'
+#alias rm='rm -rf -i'
+
+# FUN WITH SHELL
+alias shell-list='cat /etc/shells'
+alias shell-change-b='chsh -s /bin/bash'
+alias shell-change-z='chsh -s /bin/zsh'
+
+# FUN WITH GIT 
+# from https://csswizardry.com/2017/05/little-things-i-like-to-do-with-git/
+alias git-stats='git shortlog -sn --since="10 weeks" --until="2 weeks" | more'
+alias git-recent='git for-each-ref --count=10 --sort=-committerdate refs/heads/ --format="%(refname:short)"'
+alias git-overview='git log --all --since="2 weeks" --oneline --no-merges'
+alias git-recap='git log --all --oneline --no-merges --author=brad.ullman@concur.com'
+alias git-today='git log --since=00:00:00 --all --no-merges --oneline --author=brad.ullman@concur.com'
+alias git-graph='git log --graph --all --decorate --stat --date=iso'
+alias git-log='git log --oneline --decorate --all --graph'
+alias git-branch-clean='git branch | grep -v "master" | xargs git branch -D'
+
+# NGINX
+alias ngx-start='sudo nginx'
+alias ngx-stop='sudo nginx -s stop'
+
+# Volumes
+alias c='cd /Volumes/c$/'
+
+# MISC
+alias ag='ag -f --hidden'
+alias atom='open -a atom'
+alias brwe=brew  #typos
+alias cask='brew cask' # i <3 u cask
+alias dir='ls'
+alias du='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
+alias git-clean='git clean -xdfe *.my.*'
+alias google='googler'
+alias h='history'
+alias help='tldr'
+alias hosts='sudo $EDITOR /private/etc/hosts'
+alias ipconfig='ifconfig'
+alias j='jobs -l'
+alias ls='ls -FoATh'
+alias lss='find . -mindepth 1 -maxdepth 1'
+alias mount='mount |column -t'
+alias npm-check='npm-check'
+alias npm-dupes='npm ls -prod --parseable | xargs -L1 sh -c '\''basename $1'\'' dummy | sort | uniq -c | grep -v "^ *1 " | sort -rn'
+alias portkill=`lsof -i tcp:3000`
+alias sed=gsed
+alias source-map-explorer='source-map-explorer'
+alias top=htop
+alias wget='wget -c'
+alias where=which # sometimes i forget
