@@ -31,7 +31,6 @@
 .profile
 .rustup
 .rvm
-.shell_exports_private
 .ssh
 .subversion
 .tldrc/
