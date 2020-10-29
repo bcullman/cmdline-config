@@ -8,13 +8,13 @@
 .cache
 .cargo
 .CFUserTextEncoding
+.config/.shell_private*
 .config/configstore/
 .config/devcert/
 .config/gatsby/
 .config/htop/
 .config/thefuck/
 .config/yarn/
-.config/.shell_private*
 .cups
 .docker
 .DS_Store
