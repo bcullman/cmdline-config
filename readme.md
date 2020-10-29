@@ -1,7 +1,7 @@
-# my shell config
+# my cmdline config
 requires: BREW
 
-replaces my previously hand-rolled console config. works with bash or zsh.
+replaces my previously hand-rolled cmdline config. works with bash or zsh.
 
 _note: I have purposely omitted `.config/.shell_alias_private` and `.config/.shell_exports_private` from this repo_
 
