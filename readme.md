@@ -8,7 +8,7 @@ _note: I have purposely omitted `.config/.shell_alias_private` and `.config/.she
 ## Starship - cross-shell prompt
 > brew install starship
 
-Format the prompt the way you want for *any* shell. 
+Format the prompt the way you want for *any* shell. Built with Rust, so it's fast and modern.
 Configure via .config/starship.toml
 
 <img src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif" width="480" >
