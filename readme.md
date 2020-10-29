@@ -33,6 +33,6 @@ A feature native to fish shell.
 ## zsh-syntax-highlighting
 > brew install zsh-syntax-highlighting
 
-<img src="https://static.lwn.net/images/2013/11-fish-shell.png" width="480" >
-
 A feature native to fish shell.
+
+<img src="https://static.lwn.net/images/2013/11-fish-shell.png" width="480" >
