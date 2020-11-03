@@ -11,6 +11,8 @@ _note: I have purposely omitted `.config/.shell_alias_private` and `.config/.she
 Format the prompt the way you want for *any* shell. Built with Rust, so it's fast and modern.
 Configure via .config/starship.toml
 
+_To switch shells, use `chsh -s /bin/zsh`. To switch back `chsh -s /bin/bash`_
+
 <img src="https://raw.githubusercontent.com/starship/starship/master/media/demo.gif" width="480" >
 
 
