@@ -13,6 +13,7 @@
 .config/devcert/
 .config/gatsby/
 .config/htop/
+.config/ox/
 .config/thefuck/
 .config/yarn/
 .cups
