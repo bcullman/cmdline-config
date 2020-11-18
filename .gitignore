@@ -19,6 +19,7 @@
 .cups
 .docker
 .DS_Store
+.esets/
 .faraday
 .gem
 .gitconfig
@@ -45,10 +46,12 @@
 .zcompdump
 .zsh_history
 *.padl
+1
 Applications
 Desktop/
 Documents/
 Downloads/
+Google*
 Library/
 Movies/
 Music/
