@@ -1,5 +1,6 @@
 # my cmdline config
 requires: BREW
+suggested: a monospace font configured with nerd-font emojis. See: https://github.com/40huo/Patched-Fonts
 
 replaces my previously hand-rolled cmdline config. works with bash or zsh.
 
@@ -38,3 +39,4 @@ A feature native to fish shell.
 A feature native to fish shell.
 
 <img src="https://static.lwn.net/images/2013/11-fish-shell.png" width="480" >
+
