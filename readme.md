@@ -1,5 +1,6 @@
 # my cmdline config
 requires: BREW
+
 suggested: a monospace font configured with nerd-font emojis. See: https://github.com/40huo/Patched-Fonts
 
 replaces my previously hand-rolled cmdline config. works with bash or zsh.
