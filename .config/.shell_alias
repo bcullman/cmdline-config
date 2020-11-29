@@ -45,6 +45,7 @@ alias ag='ag -f --hidden'
 alias atom='open -a atom'
 alias brwe=brew  #typos
 alias cask='brew cask' # i <3 u cask
+alias diff='colordiff'
 alias dir='ls'
 alias du='ncdu --color dark -rr -x --exclude .git --exclude node_modules'
 alias git-clean='git clean -xdfe *.my.*'

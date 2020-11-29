@@ -41,7 +41,12 @@ A feature native to fish shell.
 
 <img src="https://static.lwn.net/images/2013/11-fish-shell.png" width="480" >
 
-## Nano
+## nano
 > brew install nano
 
 A console editor for the vi/emacs illiterate
+
+## colordiff
+> brew install colordiff
+
+color or diff command
