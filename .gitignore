@@ -35,6 +35,7 @@
 .rvm
 .ssh
 .subversion
+.sudo_as_admin_successful
 .tldrc/
 .Trash/
 .vscode
