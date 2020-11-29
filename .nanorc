@@ -1,4 +1,21 @@
 # ~/.config/nanorc
+
+# available colors: white, black, blue, green, red, cyan, yellow,  and  magenta
+set functioncolor green
+set keycolor cyan
+set numbercolor cyan
+set statuscolor brightwhite,green
+set titlecolor brightwhite,blue
+set softwrap
+
+set indicator
+set linenumbers
+set mouse
+set smooth
+set stateflags
+set tabsize 4
+set tabstospaces
+
 include "~/.config/nano/apacheconf.nanorc"
 include "~/.config/nano/arduino.nanorc"
 include "~/.config/nano/asciidoc.nanorc"
@@ -13,10 +30,10 @@ include "~/.config/nano/conf.nanorc"
 include "~/.config/nano/csharp.nanorc"
 include "~/.config/nano/css.nanorc"
 include "~/.config/nano/cython.nanorc"
+include "~/.config/nano/Dockerfile.nanorc"
 include "~/.config/nano/dot.nanorc"
 include "~/.config/nano/dotenv.nanorc"
 include "~/.config/nano/email.nanorc"
-include "~/.config/nano/Dockerfile.nanorc"
 include "~/.config/nano/etc-hosts.nanorc"
 include "~/.config/nano/fish.nanorc"
 include "~/.config/nano/fortran.nanorc"
@@ -29,8 +46,8 @@ include "~/.config/nano/gradle.nanorc"
 include "~/.config/nano/groff.nanorc"
 include "~/.config/nano/haml.nanorc"
 include "~/.config/nano/haskell.nanorc"
-include "~/.config/nano/html.nanorc"
 include "~/.config/nano/html.j2.nanorc"
+include "~/.config/nano/html.nanorc"
 include "~/.config/nano/ical.nanorc"
 include "~/.config/nano/ini.nanorc"
 include "~/.config/nano/inputrc.nanorc"
@@ -64,8 +81,8 @@ include "~/.config/nano/pkgbuild.nanorc"
 include "~/.config/nano/po.nanorc"
 include "~/.config/nano/pov.nanorc"
 include "~/.config/nano/privoxy.nanorc"
-include "~/.config/nano/puppet.nanorc"
 include "~/.config/nano/pug.nanorc"
+include "~/.config/nano/puppet.nanorc"
 include "~/.config/nano/python.nanorc"
 include "~/.config/nano/reST.nanorc"
 include "~/.config/nano/rpmspec.nanorc"
