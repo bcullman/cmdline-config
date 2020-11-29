@@ -39,6 +39,8 @@
 .Trash/
 .vscode
 .vscode-oss
+.vscode-server/
+.wget-hsts
 .yarn
 .yarnrc
 .yvm
