@@ -41,3 +41,7 @@ A feature native to fish shell.
 
 <img src="https://static.lwn.net/images/2013/11-fish-shell.png" width="480" >
 
+## Nano
+> brew install nano
+
+A console editor for the vi/emacs illiterate
