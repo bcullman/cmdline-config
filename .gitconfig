@@ -1,0 +1,6 @@
+[include]
+path = ~/.config/.gitconfig_user_private
+
+[alias]
+commir = commit
+

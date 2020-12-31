@@ -5,7 +5,11 @@ suggested: a monospace font configured with nerd-font emojis. See: https://githu
 
 replaces my previously hand-rolled cmdline config. works with bash or zsh.
 
-_note: I have purposely omitted `.config/.shell_alias_private` and `.config/.shell_exports_private` from this repo_
+_note: I have purposely omitted the following from this repo_
+
+* `.config/.shell_alias_private` 
+* `.config/.shell_exports_private`
+* `.config/.gitconfig_user_private`
 
 ## Starship - cross-shell prompt
 > brew install starship
