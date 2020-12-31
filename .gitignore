@@ -8,7 +8,7 @@
 .cache
 .cargo
 .CFUserTextEncoding
-.config/*private*
+.config/.private*
 .config/configstore/
 .config/devcert/
 .config/gatsby/

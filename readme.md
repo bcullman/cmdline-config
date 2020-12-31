@@ -7,9 +7,9 @@ replaces my previously hand-rolled cmdline config. works with bash or zsh.
 
 _note: I have purposely omitted the following from this repo_
 
-* `.config/.shell_alias_private` 
-* `.config/.shell_exports_private`
-* `.config/.gitconfig_user_private`
+* `.config/.private_shell_alias` 
+* `.config/.private_shell_exports`
+* `.config/.private_gitconfig_user`
 
 ## Starship - cross-shell prompt
 > brew install starship
