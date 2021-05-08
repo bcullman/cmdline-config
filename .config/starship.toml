@@ -52,4 +52,5 @@ format = "[$env_value]($style) "
 variable = "STARSHIP_SHELL"
 
 [character]
-style_user = "bold bright-green"
+success_symbol = "[❯](bold bright-green)"
+error_symbol = "[❯](bold bright-red)"
